@@ -21,7 +21,7 @@ class EODHistoricalData:
 
         nb_months = max(1, len(all_dates) // 30)
         len_month = len(all_dates) // nb_months
-
+       # comment here
         for i in range(nb_months):
             temp_min_date = all_dates[i * len_month]
             temp_max_date = all_dates[min(len(all_dates) - 1, (i + 1) * len_month)]
